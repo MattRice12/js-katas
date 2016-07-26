@@ -1,7 +1,3 @@
-def clean(word)
-
-end
-
 def palindrome?(word)
   clean_word = word.gsub(/\W*/, "").downcase
   if clean_word == clean_word.reverse
